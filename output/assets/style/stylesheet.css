@@ -243,7 +243,7 @@ ul {
 
 .top-navbar {
   padding: 0.5em;
-  background-color: #e0e0e0; }
+  background-color: #eeeeee; }
   .top-navbar:before, .top-navbar:after {
     content: "\0020";
     display: block;
@@ -268,6 +268,7 @@ ul {
     font-color: black;
     text-decoration: none;
     font-weight: bold;
+    /* border radius needs to be 'vendorized' */
     border-radius: 0.5em; }
 
 .tab-nav {
@@ -290,3 +291,17 @@ ul {
   .inventory-locations-list li {
     border: 1px solid black;
     padding: 1.75em; }
+
+.inventory-item-list {
+  width: 100%;
+  font-size: 0.9em; }
+  .inventory-item-list thead {
+    background-color: black;
+    color: white;
+    text-align: left; }
+    .inventory-item-list thead th {
+      padding: 0.5em; }
+  .inventory-item-list tbody tr {
+    border-bottom: 1px solid black; }
+  .inventory-item-list td {
+    padding: 0.5em 0.75em; }
