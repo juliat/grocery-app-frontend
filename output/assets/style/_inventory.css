@@ -1,0 +1,5 @@
+.inventory-locations-list {
+  padding: 1.75em; }
+  .inventory-locations-list li {
+    border: 1px solid black;
+    padding: 1.75em; }

@@ -3,14 +3,18 @@ title: Home
 ---
 
 <div class="top-navbar">
+  <a class="navcell-1">
+  </a>
 	<h1 class="page-title">
 		What I Have at Home
 	</h1>
-	<a href="#additem">
+	<a class="navcell-2" href="#additem">
 		Add Item
 	</a>
 </div>
-<div class="locations-list">
+
+
+<div class="inventory-locations-list">
   <ul>
     <% kitchen_locations = ['fridge', 'freezer', 'pantry', 'running low']
        kitchen_locations.each do |location| 
